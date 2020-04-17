@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.preload{
+  transition: 0 !important;
+}
+/*****共通部分
+***********************************************/
+body {
+  font: 16px "Hiragino kaku GOthic Pro","メイリオ",sans-serif;
+  background-position: center center; /*backを中央に*/
+  background-repeat: no-repeat; /*繰り返ししない*/
+  background-attachment: fixed; /*画像を固定*/
+  background-size: cover; /*画像の採寸を綺麗に調整*/
+  background-color: #a90f0d;
+  
+}
+.wrapper {
+  width: 1060px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*****ヘッダー*****/
+.header_top {
+  width: 1060px;
+  height: 70px;
+  background-color: #000;
+  color:#fff;
+  font-size: 15px;
+}
+.header_top h1 {
+  margin: 0;
+  line-height: 1.2em;
+  padding-top:5px;
+  text-align: left;
+  font-size: 25px; 
+}
+
+
+/*****ナビゲーション*****/
+.main_navigation {
+  width: 1060px;
+  height: 50px;
+  background-color: #fff;
+  border-right:solid 4px #a90f0d;
+
+}
+.main_navigation a {
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  color: #000;
+
+}
+.main_navigation ul {
+  list-style: none;
+}
+.main_navigation ul li {
+  float: left;
+  width: calc(100% / 5);
+}
+
+/*****ディスコグラフィー
+***********************************************/
+.article_top h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: 'Quattrocento', serif;
+}
+
+/*****ディスコグラフィー
+***********************************************/
+.article_top h1{
+  width: 1060px;
+  background-color: #000;
+  border-top:solid 4px #a90f0d;
+  margin: auto 0;
+}
+h1{
+  text-align: center;
+}
+
+.section_back{
+  background-color: #fff;
+  width: 1060px;
+  height: 1000px;
+  margin: 0 auto;
+}
+.section_top {
+  width: 350px; /*横幅の指定*/
+  height: 205px;
+  padding: 1.5%; /*余白の指定*/
+  margin: 0 5px 15px 30px;
+  float: right;
+  background: #000;
+  color: #fff;
+  border-top:solid 4px #a90f0d;
+}
+.section_top p {
+  color: #fff;
+  float: right;
+  font-size: 11px;
+  width: 150px;
+  margin-top:0px;
+}
+
+.section_top img {
+  width: 165px;
+  height: 165px;
+}
+
+.section_top .btn {
+  font-size: 14px;
+  float: right;
+  width: 135px;
+  margin:-20px;
+  margin-right: -100px;
+}
+/*****詳細ページ　（ディスコグラフィ―）
+***********************************************/
+
+
+
+/*****メインコンテンツ・ディスコグラフィー
+***********************************************/
+
+
+
+
+
+/*****フッター
+***********************************************/
+.footer_top{
+  width: 1060px;
+  display: table;
+  text-align: center;
+  padding-top: 30px;
+  height: 130px;
+  background-color: #000;
+  color: #fff;
+}
+

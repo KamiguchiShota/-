@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ 
+.preload{
+  transition: 0 !important;
+}
+/*****共通部分
+***********************************************/
+body {
+  font: 16px "Hiragino kaku GOthic Pro","メイリオ",sans-serif;
+  background-position: center center; /*backを中央に*/
+  background-repeat: no-repeat; /*繰り返ししない*/
+  background-attachment: fixed; /*画像を固定*/
+  background-size: cover; /*画像の採寸を綺麗に調整*/
+  background-image: url(../images/aaa.jpg);
+}
+.wrapper {
+  width: 1060px;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(35,35,35,.8);
+}
+
+/*****ヘッダー*****/
+.header_top {
+  width: 1060px;
+  height: 70px;
+  background-color: #000;
+  color:#fff;
+  font-size: 15px;
+}
+.header_top h1 {
+  line-height: 1.2em;
+  padding-top:5px;
+  text-align: left;
+  font-size: 22px; 
+  margin-left: 20px;
+}
+
+.header_top1 {
+  height: 70px;
+}
+
+
+/*****ナビゲーション*****/
+.main_navigation {
+  width: 1060px;
+  height: 50px;
+  background-color: #fff;
+}
+.main_navigation a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;/*文字の隙間が開く*/
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+}
+.main_navigation a:hover {
+  background-color: rgba(175, 35, 38, 8);	/*背景色の指定*/
+  color: #fff;	/*文字色の変更*/
+  transition: all 0.5s;	/*ホバー時の動きをなめらかにする*/
+}
+
+.main_navigation ul {
+  list-style: none;
+  padding: 0;
+}
+.main_navigation ul li {
+  float: left;
+  width: calc(100% / 5);
+}
+
+
+/*****詳細ページ　（ディスコグラフィ―）
+***********************************************/
+.album {
+  width: 530px;
+  height: 255px;
+  margin-top:80px;
+  margin-bottom: 30px;
+  margin-left: 270px;
+}
+.album img {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  border-top:solid 1px #fff ;
+  border-left:solid 1px #fff ;
+  border-bottom:solid 1px #fff ;
+  border-right:solid 1px #fff ;
+}
+.album p {
+  width: 220px;
+  height:100px;
+  float:right;
+  font-size: 12px;
+  margin-right: 50px;
+  margin-top: 165px;
+  color: #fff;
+}
+.article_top li {
+  width: 560px;
+  height: 35px;
+  font-size; 14px;
+  padding: 5px;
+  color: #fff;
+}
+
+ul{
+  padding: 20px; 20px;
+}
+
+
+.shousai{
+  font-size: 14px;
+  width: 530px;
+  margin-left: 300px;
+  margin-top: 25px;
+  color:#fff;
+}
+
+.button a{
+  color: #000;
+}
+.button{
+  margin-left: 525px;
+  margin-top: 15px;
+}
+
+
+
+/*****メインコンテンツ・ディスコグラフィー
+***********************************************/
+.article_top {
+  width: 1060px;
+  z-index: 1;
+}
+.article_top ul {
+  margin: auto;
+  list-style:  none; /*リストの・がなくなる*/
+  margin-left: 250px;
+}
+
+.article_top ul p {
+  color: #fff;
+}
+/*****フッター
+***********************************************/
+.footer_top{
+  width: 1060px;
+  display: table;
+  text-align: center;
+  padding-top: 30px;
+  height: 130px;
+}
+
